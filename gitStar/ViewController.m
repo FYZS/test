@@ -15,9 +15,11 @@
 #import "ViewController+lifeCircle.h"
 #import "ViewController+tableView.h"
 #import "ViewController+GCD.h"
+#import "ViewController+Operation.h"
 
 @interface ViewController ()
 
+@property (nonatomic, copy) NSMutableArray *testArr;
 
 @end
 
@@ -59,7 +61,7 @@
     //    NSMutableArray *mCopyArray = [array mutableCopy];
     
     //    NSLog(@"%@", self.array);
-    
+//    self.testArr = self.array;
     NSLog(@"lifecircle %s", __FUNCTION__);
     
     //    [self.view.layer addSublayer:self.backgroundLayer];
@@ -94,6 +96,10 @@
     //    [self asyncInSerialQueue];
     
     [self testAutoDictionary];
+    
+    [self doWithOperation];
+    
+//    [self testSwizzleinng];
 }
 
 #pragma mark - 数据持久化存储

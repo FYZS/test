@@ -13,7 +13,7 @@
 int main(int argc, char * argv[]) {
     @autoreleasepool {
 
-        NSString *string = @"string";
+//        NSString *string = @"string";
         void (^block)(void);
         
         for (int i = 0; i < 1; i++) {

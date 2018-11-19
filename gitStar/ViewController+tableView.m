@@ -7,6 +7,7 @@
 //
 
 #import "ViewController+tableView.h"
+#import "EventViewController.h"
 
 @implementation ViewController (tableView)
 
@@ -47,4 +48,10 @@
     return @[deleteAction];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
+    EventViewController *vc = [[EventViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 @end

@@ -10,6 +10,7 @@
 #import "_Child.h"
 #import "_Man.h"
 #import "_Woman.h"
+#import <JRSwizzle/JRSwizzle.h>
 
 @implementation Person
 
@@ -39,6 +40,22 @@
 
 - (void)doADaysWork {
     //should implement by subClass
+}
+
+#pragma mark - testSwizzling
+- (void)sayHello {
+    NSLog(@"origin test sayHello");
+}
+
+
++ (void)load {
+    [self jr_swizzleMethod:@selector(sayHello) withMethod:@selector(person_sayHello) error:nil];
+}
+
+- (void)person_sayHello {
+    [self person_sayHello];
+    
+    NSLog(@"person test sayHello");
 }
 
 @end

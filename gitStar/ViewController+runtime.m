@@ -8,6 +8,7 @@
 
 #import "ViewController+runtime.h"
 #import "AutoDictionary.h"
+#import "_Child.h"
 
 @implementation ViewController (runtime)
 
@@ -18,4 +19,8 @@
     NSLog(@"%@", dic);
 }
 
+- (void)testSwizzleinng {
+    Child *child = [[Child alloc] init];
+    [child sayHello];
+}
 @end

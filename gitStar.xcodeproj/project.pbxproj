@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7B319E2180C7D10096468C /* ViewController+AFN.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7B319D2180C7D10096468C /* ViewController+AFN.m */; };
 		BD8656FC2118966000AC9CC7 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8656FB2118966000AC9CC7 /* CollectionViewController.m */; };
+		BD8D35BE2182ECD2004356CA /* ViewController+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8D35BD2182ECD2004356CA /* ViewController+Operation.m */; };
 		BDBD394920FD76DD00EDCD12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBD394820FD76DD00EDCD12 /* QuartzCore.framework */; };
 		BDBE3B8B208DB97F0055AD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE3B8A208DB97F0055AD8A /* AppDelegate.m */; };
 		BDBE3B8E208DB97F0055AD8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE3B8D208DB97F0055AD8A /* ViewController.m */; };
@@ -15,6 +17,11 @@
 		BDBE3B93208DB9810055AD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE3B92208DB9810055AD8A /* Assets.xcassets */; };
 		BDBE3B96208DB9810055AD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE3B94208DB9810055AD8A /* LaunchScreen.storyboard */; };
 		BDBE3B99208DB9810055AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE3B98208DB9810055AD8A /* main.m */; };
+		BDD8EB78219182FD005B9BCB /* UIView+hitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8EB77219182FD005B9BCB /* UIView+hitTest.m */; };
+		BDD8EB7B21918C56005B9BCB /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8EB7A21918C56005B9BCB /* AView.m */; };
+		BDD8EB7E21918C5D005B9BCB /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8EB7D21918C5D005B9BCB /* BView.m */; };
+		BDD8EB8121918C64005B9BCB /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8EB8021918C64005B9BCB /* CView.m */; };
+		BDD8EB8421918D60005B9BCB /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8EB8321918D60005B9BCB /* EventViewController.m */; };
 		BDE1EC882174BCB700D5BEF3 /* NSObject+imageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1EC872174BCB700D5BEF3 /* NSObject+imageSize.m */; };
 		BDE1EC8F2175C35B00D5BEF3 /* AutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1EC8E2175C35B00D5BEF3 /* AutoDictionary.m */; };
 		BDE1EC922175C90000D5BEF3 /* ViewController+GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1EC912175C90000D5BEF3 /* ViewController+GCD.m */; };
@@ -30,8 +37,12 @@
 
 /* Begin PBXFileReference section */
 		443FF4CFBB32792C999098BA /* Pods-gitStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitStar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitStar/Pods-gitStar.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7B319C2180C7D10096468C /* ViewController+AFN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+AFN.h"; sourceTree = "<group>"; };
+		BD7B319D2180C7D10096468C /* ViewController+AFN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+AFN.m"; sourceTree = "<group>"; };
 		BD8656FA2118966000AC9CC7 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		BD8656FB2118966000AC9CC7 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		BD8D35BC2182ECD2004356CA /* ViewController+Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Operation.h"; sourceTree = "<group>"; };
+		BD8D35BD2182ECD2004356CA /* ViewController+Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Operation.m"; sourceTree = "<group>"; };
 		BDBD394820FD76DD00EDCD12 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BDBE3B86208DB97F0055AD8A /* gitStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBE3B89208DB97F0055AD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +54,16 @@
 		BDBE3B95208DB9810055AD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBE3B97208DB9810055AD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBE3B98208DB9810055AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDD8EB76219182FD005B9BCB /* UIView+hitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+hitTest.h"; sourceTree = "<group>"; };
+		BDD8EB77219182FD005B9BCB /* UIView+hitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+hitTest.m"; sourceTree = "<group>"; };
+		BDD8EB7921918C56005B9BCB /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		BDD8EB7A21918C56005B9BCB /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		BDD8EB7C21918C5D005B9BCB /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		BDD8EB7D21918C5D005B9BCB /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		BDD8EB7F21918C64005B9BCB /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		BDD8EB8021918C64005B9BCB /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		BDD8EB8221918D60005B9BCB /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		BDD8EB8321918D60005B9BCB /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		BDE1EC862174BCB700D5BEF3 /* NSObject+imageSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+imageSize.h"; sourceTree = "<group>"; };
 		BDE1EC872174BCB700D5BEF3 /* NSObject+imageSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+imageSize.m"; sourceTree = "<group>"; };
 		BDE1EC8A2175C2AB00D5BEF3 /* Person+protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+protected.h"; sourceTree = "<group>"; };
@@ -120,6 +141,7 @@
 		BDBE3B88208DB97F0055AD8A /* gitStar */ = {
 			isa = PBXGroup;
 			children = (
+				BDD8EB7521918258005B9BCB /* viewForEvent */,
 				BDE1EC9C2175CC8900D5BEF3 /* runtime */,
 				BDE1EC842174BC8500D5BEF3 /* category */,
 				BDFA3CBD213C06DC00E8E721 /* models */,
@@ -127,6 +149,10 @@
 				BDBE3B8A208DB97F0055AD8A /* AppDelegate.m */,
 				BDBE3B8C208DB97F0055AD8A /* ViewController.h */,
 				BDBE3B8D208DB97F0055AD8A /* ViewController.m */,
+				BD8D35BC2182ECD2004356CA /* ViewController+Operation.h */,
+				BD8D35BD2182ECD2004356CA /* ViewController+Operation.m */,
+				BD7B319C2180C7D10096468C /* ViewController+AFN.h */,
+				BD7B319D2180C7D10096468C /* ViewController+AFN.m */,
 				BDE1EC992175C9B900D5BEF3 /* ViewController+runtime.h */,
 				BDE1EC9A2175C9B900D5BEF3 /* ViewController+runtime.m */,
 				BDE1EC962175C9A300D5BEF3 /* ViewController+lifeCircle.h */,
@@ -146,11 +172,28 @@
 			path = gitStar;
 			sourceTree = "<group>";
 		};
+		BDD8EB7521918258005B9BCB /* viewForEvent */ = {
+			isa = PBXGroup;
+			children = (
+				BDD8EB7921918C56005B9BCB /* AView.h */,
+				BDD8EB7A21918C56005B9BCB /* AView.m */,
+				BDD8EB7C21918C5D005B9BCB /* BView.h */,
+				BDD8EB7D21918C5D005B9BCB /* BView.m */,
+				BDD8EB7F21918C64005B9BCB /* CView.h */,
+				BDD8EB8021918C64005B9BCB /* CView.m */,
+				BDD8EB8221918D60005B9BCB /* EventViewController.h */,
+				BDD8EB8321918D60005B9BCB /* EventViewController.m */,
+			);
+			path = viewForEvent;
+			sourceTree = "<group>";
+		};
 		BDE1EC842174BC8500D5BEF3 /* category */ = {
 			isa = PBXGroup;
 			children = (
 				BDE1EC862174BCB700D5BEF3 /* NSObject+imageSize.h */,
 				BDE1EC872174BCB700D5BEF3 /* NSObject+imageSize.m */,
+				BDD8EB76219182FD005B9BCB /* UIView+hitTest.h */,
+				BDD8EB77219182FD005B9BCB /* UIView+hitTest.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -307,13 +350,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8D35BE2182ECD2004356CA /* ViewController+Operation.m in Sources */,
 				BDE1EC8F2175C35B00D5BEF3 /* AutoDictionary.m in Sources */,
 				BDFA3CC3213C07A000E8E721 /* _Child.m in Sources */,
 				BD8656FC2118966000AC9CC7 /* CollectionViewController.m in Sources */,
 				BDBE3B8E208DB97F0055AD8A /* ViewController.m in Sources */,
 				BDFA3CC6213C07A700E8E721 /* _Man.m in Sources */,
+				BDD8EB7B21918C56005B9BCB /* AView.m in Sources */,
+				BDD8EB78219182FD005B9BCB /* UIView+hitTest.m in Sources */,
 				BDE1EC982175C9A300D5BEF3 /* ViewController+lifeCircle.m in Sources */,
+				BDD8EB8121918C64005B9BCB /* CView.m in Sources */,
 				BDFA3CC9213C07AD00E8E721 /* _Woman.m in Sources */,
+				BD7B319E2180C7D10096468C /* ViewController+AFN.m in Sources */,
 				BDE1EC952175C91000D5BEF3 /* ViewController+tableView.m in Sources */,
 				BDFA3CC0213C06F700E8E721 /* Person.m in Sources */,
 				BDE1EC882174BCB700D5BEF3 /* NSObject+imageSize.m in Sources */,
@@ -321,6 +369,8 @@
 				BDE1EC922175C90000D5BEF3 /* ViewController+GCD.m in Sources */,
 				BDBE3B8B208DB97F0055AD8A /* AppDelegate.m in Sources */,
 				BDE1EC9B2175C9B900D5BEF3 /* ViewController+runtime.m in Sources */,
+				BDD8EB7E21918C5D005B9BCB /* BView.m in Sources */,
+				BDD8EB8421918D60005B9BCB /* EventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

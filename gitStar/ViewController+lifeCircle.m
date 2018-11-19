@@ -40,7 +40,7 @@
     NSLog(@"lifecircle %s", __FUNCTION__);
 }
 
-//即将对view的子视图进行布局
+//即将对view的子视图进行布局, 一般在boundsc change的时候, view会重新调整布局
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     

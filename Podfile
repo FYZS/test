@@ -8,5 +8,6 @@ target 'gitStar' do
 
   pod 'Masonry'#, :inhibit_warnings => true
   pod 'MJRefresh'
-  
+  pod 'AFNetworking' #, '~> 2.0'
+  pod 'JRSwizzle'
 end

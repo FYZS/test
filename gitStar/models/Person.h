@@ -23,6 +23,8 @@ typedef NS_ENUM(NSUInteger, PersonType) {
 
 - (void)doADaysWork;
 
+- (void)sayHello;
+
 @property (nonatomic) void(^nblock)(int);
 
 @end
